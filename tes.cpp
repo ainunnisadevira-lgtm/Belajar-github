@@ -3,7 +3,7 @@
 #include <ctime>
 
 int main() {
-  srand(time(NULL));
+    srand(time(NULL));
 
   int FortuneCookies = std::rand()%6;
   int LuckyNumber1 = std::rand()%51;
